@@ -1,0 +1,300 @@
+/*GENERAL*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+
+}
+h1
+{
+    font-family:'crete round',serif;
+    font-size: 45px;
+    color: #444;
+}
+.orange
+{
+    color: #FF7A00;
+}
+.wrapper
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #444;
+}
+h2
+{
+    color: #444;
+    font-size: 55px;
+}
+h3{
+    font-size: 30px;
+    color: #444;
+}
+h4{
+    font-size: 24px;
+    color: #444;
+}
+p{
+    line-height: 20px;
+    color: #777;
+}
+small
+{
+     font-style:italic ;
+     font-size: 15px;
+}
+
+
+/*HEADER*/
+header
+{
+    height: 120px;
+}
+header h1
+{
+float: left;
+margin-top: 32px;
+}
+header nav
+{
+    float: right;
+    margin-top: 47px;
+}
+header ul li
+{
+    float:left;
+    display: inline-block;
+}
+header ul li a 
+{
+    text-transform:uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+
+
+/*MAIN-IMAGE*/
+#main-image
+{
+    height: 540px;
+    background: url('image/SS.jpg') no-repeat center;
+    background-size: cover;
+    
+}
+#main-image h2
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin-bottom: 20px;
+    color: #FFF;
+
+}
+.button1
+{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background-color: #02b8dd;
+    color: #FFF;
+    font-size:20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius:3px;
+}
+.button1:hover
+{
+    background-color:#FF7A00;
+}
+
+/* STEPS */
+
+#steps ul
+{
+    padding-top: 80px;
+}
+#steps ul li
+{
+    width: 300px;
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+}
+#steps ul li h4
+{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 140px
+}
+#steps ul li p
+{
+    margin-bottom: 20px;
+}
+#step-1
+{
+    background: url(./image/steps-icon-1.png) no-repeat top center;
+}
+#step-2
+{
+    background: url(./image/steps-icon-2.png) no-repeat top center;
+}
+#step-3
+{
+    background: url(./image/steps-icon-3.png) no-repeat top center;
+}
+.clear
+{
+    clear: both;
+}
+
+/* POSSIBILITIES */
+
+#possibilities
+{
+    background-color: #efefef;
+    padding: 60px 0px;
+
+}
+#possibilities article
+{
+    height:270px;
+    width: 460px;
+    float: left;
+    border-radius: 10px;
+}
+#possibilities article:first-child
+{
+    margin-right: 20px;
+}
+.overlay
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 190px;
+    max-height: 100%;
+    padding: 20px;
+    border-radius:10px 0 0 10px;
+    text-align: center;
+    box-sizing: border-box;   
+    
+}
+article h4
+{
+    text-transform: uppercase;
+    padding:20px 0;
+    text-align: center;
+    border-bottom: #444 1px solid;
+    margin: 0 20px;
+
+}
+article p
+{
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.button-2
+{
+    display: inline-block;
+    background-color: #FF7A00;
+    padding: 6px 20px;
+    border-radius: 3px;
+    text-align: center;
+    color: #FFF;
+}
+.button-2:hover
+{
+    color: #FFF;
+    background-color: #02b8dd;
+}
+
+
+/*CONTACT*/
+#contact 
+{
+    padding: 60px 0;
+    text-align: center;
+}
+#contact h3{
+    text-transform: uppercase;
+   padding-bottom: 10px; 
+    text-align: center;
+    border-bottom: 1px solid #02b8dd;
+    width: 400px;
+    margin: 0px auto ;
+}
+#contact p
+{
+    padding-top: 40px;
+    text-align: center;
+}
+form
+{
+    padding-top: 40px;
+}
+label
+{
+    font-weight: bold;
+    font-size: 20px;
+   margin-right: 10px;
+   color: #444;
+}
+input[type="text"]
+{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+#ok
+{
+    color: #FFF;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #02b8dd;
+    border: 1px #ddd solid;
+}
+#ok:hover
+{
+    color: #FFF;
+    background-color: #444;
+}
+/*FOOTER*/
+
+footer
+{
+    padding: 60px 0;
+    background-color: #444;
+    text-align: center;
+}
+footer h1
+{
+    color: #FFF;
+  
+}
+.copyright
+{
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}
+
+
